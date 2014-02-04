@@ -1,0 +1,12 @@
+{
+  "bind_port": 8765,
+  "bunyan": {
+    "name": "base-server",
+    "streams": [
+      {
+        "level": "error",
+        "path": "log/base-server-error.log"
+      }
+    ]
+  }
+}
